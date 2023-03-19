@@ -1,7 +1,46 @@
 #my-course {
     margin: 15px auto;
-    height: 500px;
+    height: auto;
     width: 800px;
     box-shadow: 5px 5px 10px #C8C8C8, -5px -5px 10px #F5F5F5;
     border-radius: 10px;
+}
+.my-course-header {
+    width: 100%;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.my-course-lessons {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+#my-course h4 {
+    margin: 15px;
+}
+.lesson {
+    width: calc(100% - 30px);
+    height: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row; 
+    transition: .2s ease;
+}
+.lesson:hover {
+    background-color: #F5F5F5;
+}
+.lesson img {
+    height: 100%;
+    border-radius: 10px;
+}
+.lesson-title {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

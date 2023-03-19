@@ -41,7 +41,7 @@ header img {
 #courses {
     width: 100%;
     height: auto;
-    transition: .1s ease;
+    transition: .2s ease;
 }
 .course {
     margin: auto;
